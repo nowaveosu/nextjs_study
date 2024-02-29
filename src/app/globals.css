@@ -4,3 +4,6 @@ body {
   background-color: black;
 }
 
+h1 a {
+  text-decoration: none;
+}
