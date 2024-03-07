@@ -17,7 +17,7 @@ export default function Update(){
                 setTitle(result.title);
                 setBody(result.body);
             })
-    }, [])
+    })
 
     return(
         <form onSubmit={(e) => {
