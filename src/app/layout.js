@@ -1,5 +1,6 @@
 // 사용자와 상호작용하는건 클라이언트 컴포넌트, 그냥 보여주는건 서버 컴포턴트
 // next JS 에서는 기본적으로 서버 컴포넌트라 생각한다. use client 쓸것
+// client 실행 : npm run dev
 // json서버실행 : npx json-server --watch --port 9999 db.json
 // 서버컴포넌트는 useEffect useState 필요없음. 되도록 서버컴포넌트화하셈
 // uswParams등 일부기능 클라이언트 컴포넌트 써야한다면 따로 파일파서 import할것
